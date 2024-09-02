@@ -4,20 +4,19 @@ import { Footer } from './_component/Footer';
 import UseContext from './context/useContext';
 import { Roboto } from 'next/font/google';
 
+
 const roboto = Roboto({
   subsets: ['latin'],
   weight: ['400', '500', '700'],
   style: ['normal', 'italic'],
 });
 
-
 export const metadata = {
   title: {
-    template: "%s / Anabel Lifestyle Limited",
-    default: "Welcome / Anabel Lifestyle Limited"
+    template: "%s / ANABEM Lifestyle Ltd. | MEP Services, Bespoke Furniture, Real Estate Solutions",
+    default: "Welcome / ANABEM Lifestyle Ltd. | MEP Services, Bespoke Furniture, Real Estate Solutions"
   },
-  description: `Luxurious cabin hotel, located in the heart of the
-  Italian Dolomites, surrounded by beautiful mountains and dark forests`
+  description: `Welcome to ANABEM Lifestyle Ltd., where innovation meets craftsmanship. We provide exceptional Mechanical, Electrical, and Plumbing (MEP) services, bespoke furniture design, and comprehensive real estate solutions to bring your vision to life`,
 }
 
 export default function RootLayout({ children }) {
@@ -37,4 +36,3 @@ export default function RootLayout({ children }) {
 }
 
 
-// spacemono

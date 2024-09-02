@@ -4,9 +4,8 @@ import contactImage from '@/public/contactImage.png'
 import Image from 'next/image'
 
 export const metadata = {
-    title: "Contact",
-    description: `Luxurious cabin hotel, located in the heart of the
-    Italian Dolomites, surrounded by beautiful mountains and dark forests`
+    title: "Contact Us",
+    description: `Get in touch with ANABEM Lifestyle Ltd. for inquiries about our Mechanical, Electrical, and Plumbing (MEP) services, bespoke furniture design, or real estate solutions. We're here to assist you with any questions or project needs.`
 }
 
 const Page = () => {

@@ -2,9 +2,8 @@ import React from 'react'
 import PagesContainer from '../_component/pagesContainer'
 
 export const metadata = {
-    title: "Services",
-    description: `Luxurious cabin hotel, located in the heart of the
-    Italian Dolomites, surrounded by beautiful mountains and dark forests`
+    title: "Our Services",
+    description: `Explore the range of services offered by ANABEM Lifestyle Ltd., including Mechanical, Electrical, and Plumbing (MEP) solutions, bespoke furniture design, and comprehensive real estate services. Discover how we can meet your unique needs with our expertise and innovation.`
 }
 
 const Page = () => {
