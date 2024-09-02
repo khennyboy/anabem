@@ -24,7 +24,7 @@ const HomeSection1 = () => {
                 </div>
             </div>
             <Link href='/services'
-                className='bg-indigo-500 text-white w-[30%] transition-all duration-200 ease-linear mx-auto block
+                className='bg-indigo-500 text-white w-1/2 transition-all duration-200 ease-linear mx-auto block
                      max-w-[200px] ring-indigo-600 focus:ring-1 rounded py-3 ring-offset-2 smallMobile:w-[45%] smallMobile:text-base
                       text-center text-xl hover:bg-indigo-600 dark:ring-offset-dark-grey_50 font-medium'>Learn more!</Link>
         </>
