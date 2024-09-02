@@ -14,11 +14,11 @@ const Page = () => {
           can bring your vision to life.</p>
         <div className='flex w-full gap-8 items-center justify-center'>
           <Link href='/services'
-            className='bg-indigo-500 text-white w-1/2  transition-all duration-200 ease-linear
+            className='bg-indigo-500 text-white w-1/2  transition-all duration-200 ease-linear tablet::text-lg
                      max-w-[140px] ring-indigo-200 ring-offset-indigo-600 focus:ring-1 rounded py-3 ring-offset-2 smallMobile:w-[45%] smallMobile:text-base
                       text-center text-xl hover:bg-indigo-600  font-[500]'>Learn More!</Link>
           <Link href='/contact'
-            className='bg-indigo-500 text-white w-1/2  transition-all duration-200 ease-linear
+            className='bg-indigo-500 text-white w-1/2  transition-all duration-200 ease-linear tablet:text-lg
                      max-w-[140px] ring-indigo-200 ring-offset-indigo-600 focus:ring-1 rounded py-3 ring-offset-2 smallMobile:w-[45%] smallMobile:text-base
                       text-center text-xl hover:bg-indigo-600  font-[500]'>Contact</Link>
         </div>
